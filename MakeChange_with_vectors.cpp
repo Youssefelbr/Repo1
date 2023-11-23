@@ -1,6 +1,5 @@
 #include<iostream>
 #include<vector>
-
 using namespace std;
 
 vector<int> MakeChange(int amount)//======== this function calculates the number of each bill for the amount given

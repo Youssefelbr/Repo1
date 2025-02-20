@@ -18,6 +18,7 @@ vector<int> MakeChange(int amount)//======== this function calculates the number
 void testMakeChange(int amount, vector<int> exp)//Testing function . It takes the amount,the expected result and check wether the result is correct or not
 {
     vector<int> NumOfBill;
+    vector<int> NuumOfBill;
     NumOfBill = MakeChange(amount);
     bool T;
     for(int j = 0; j<6; j++)

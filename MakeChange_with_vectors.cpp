@@ -4,7 +4,8 @@ using namespace std;
 
 vector<int> MakeChange(int amount)//======== this function calculates the number of each bill for the amount given
 {
-    vector<int> bill={100,50,20,10,5,1};
+    vector<int> bill={100,50,20,10,5,1,44,18};
+    vector<int> vec={100,50,20,10,5,1,44,18};
     vector<int> NumberOfBills;
         for(int i = 0; i<=5; i++)
         {
@@ -23,6 +24,7 @@ void testMakeChange(int amount, vector<int> exp)//Testing function . It takes th
     {
         if(NumOfBill[j]  == exp[j])//comparison between the elements of the real result of the function and the exepected one.
         {   T = true;//looping through all the elements and using the T variable as a Flag 
+            cout<<"yaah bodyyy !";
         }else{
             T = false;
             break;
